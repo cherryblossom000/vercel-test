@@ -6,5 +6,5 @@ export default async (
   response: VercelResponse
 ): Promise<void> => {
   const {name = 'World'} = request.query
-  response.status(200).send(`Hello ${name}!`)
+  response.status(200).send(`Hello1 ${name}!`)
 }
